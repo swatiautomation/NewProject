@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Navneen Sessions]">
+  <test thread-count="5" name="testng test(failed)">
+    <classes>
+      <class name="com.test.GoogleTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="googleLogoText"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.test.GoogleTest -->
+    </classes>
+  </test> <!-- testng test(failed) -->
+</suite> <!-- Failed suite [Navneen Sessions] -->
